@@ -1,4 +1,3 @@
-
 package com.mycompany.bank_europe.cuenta.cliente;
 
 public class Cliente implements InfoCliente {

@@ -1,16 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.bank_europe.cuenta;
 
-import com.bankeurope.cliente.InfoCliente;
+import com.mycompany.bank_europe.cuenta.cliente.InfoCliente;
+import com.mycompany.bank_europe.cuenta.cliente.Cliente;
 
 public class CuentaDigital extends CuentaBancaria implements InfoCliente {
 
     private double tasaInteres = 0.01; // 1% anual ejemplo
 
-    public CuentaDigital(String numeroCuenta, double saldo, com.bankeurope.cliente.Cliente cliente) {
+    public CuentaDigital(String numeroCuenta, double saldo, Cliente cliente) {
         super(numeroCuenta, saldo, cliente);
     }
 

@@ -1,10 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.bank_europe.cuenta;
 
-import com.bank_europe.cliente.Cliente;
+import com.mycompany.bank_europe.cuenta.cliente.Cliente;
 
 public abstract class CuentaBancaria {
     private String numeroCuenta;
